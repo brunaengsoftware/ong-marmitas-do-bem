@@ -4,6 +4,127 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Marmitas do Bem</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.ico"
+      type="image/x-icon"
+    />
   </head>
-  <body></body>
+  <body>
+    <nav class="mainNav">
+      <div class="mainNav__logo">
+        <img src="assets/images/logo-pq.png" alt="Logo da ONG" />
+      </div>
+      <div class="mainNav__links">
+        <a href="#sobre" class="mainNav__link" data-section="sobre">Sobre Nós</a>
+        <a href="#projeto" class="mainNav__link" data-section="projeto"
+          >Nosso Projeto</a
+        >
+        <a href="#junte" class="mainNav__link" data-section="junte"
+          >Junte-se a Nós</a
+        >
+        <a href="#contato" class="mainNav__link" data-section="contato">Contatos</a>
+      </div>
+      <div class="mainNav__icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <g data-name="Layer 2" fill="#9197AE">
+            <g data-name="menu-2">
+              <rect width="24" height="24" transform="rotate(180 12 12)" opacity="0"/>
+              <circle cx="4" cy="12" r="1" />
+              <rect x="7" y="11" width="14" height="2" rx=".94" ry=".94" />
+              <rect x="3" y="16" width="18" height="2" rx=".94" ry=".94" />
+              <rect x="3" y="6" width="18" height="2" rx=".94" ry=".94" />
+            </g>
+          </g>
+        </svg>
+      </div>
+    </nav>
+    <header class="mainHeading">
+      <!-- Sobre Nós -->
+      <div id="sobre" class="mainHeading__content section active">
+        <article class="mainHeading__text">
+          <p class="mainHeading__preTitle">História</p>
+          <h2 class="mainHeading__title">QUEM SOMOS?</h2>
+          <p class="mainHeading__description">
+            Somos um projeto social sem fins lucrativos. Iniciamos em Abril de
+            2020 devido à pandemia. Fomos despertados em nossos corações em
+            ajudar as pessoas em situação de rua e essa corrente do BEM só
+            cresceu desde então. Iniciamos com 47 marmitas e hoje entregamos
+            mais de 300 refeições completas com bebida e sobremesa todos os
+            sábados.
+          </p>
+          <!-- <button class="cta">Know more</button> -->
+        </article>
+        <figure class="mainHeading__image">
+          <img src="assets/images/imagem-5.png" alt="Sobre Nós" />
+        </figure>
+      </div>
+      <!-- Nosso Projeto -->
+      <div id="projeto" class="mainHeading__content section">
+        <article class="mainHeading__text">
+          <p class="mainHeading__preTitle">Ação</p>
+          <h2 class="mainHeading__title">Nosso Projeto</h2>
+          <p class="mainHeading__description">
+            Todos os sábados, voluntários se reúnem para preparar e distribuir
+            marmitas nutritivas em diferentes comunidades. Já entregamos
+            milhares de refeições, e cada doação nos ajuda a alcançar ainda mais
+            pessoas. Esse projeto é para quem deseja começar a pensar no próximo
+            e praticarmos juntos a generosidade!
+          </p>
+        </article>
+        <figure class="mainHeading__image">
+          <img src="assets/images/imagem-1.png" alt="Nosso projeto" />
+        </figure>
+      </div>
+      <!-- Junte-se a Nós -->
+      <div id="junte" class="mainHeading__content section">
+        <article class="mainHeading__text">
+          <p class="mainHeading__preTitle">União</p>
+          <h2 class="mainHeading__title">Junte-se a Nós</h2>
+          <p class="mainHeading__description">
+            Você pode fazer parte dessa corrente do bem! Seja como voluntário,
+            doando alimentos ou contribuindo financeiramente, cada gesto
+            transforma vidas. Venha cozinhar, distribuir ou apoiar de onde
+            estiver. <br />
+          </p>
+          <!-- <button class="cta">Know more</button> -->
+        </article>
+        <figure class="mainHeading__image">
+          <img src="assets/images/imagem-4.png" alt="Junte-se a nós" />
+        </figure>
+      </div>
+      <!-- Contato -->
+      <div id="contato" class="mainHeading__content section">
+        <article class="mainHeading__text">
+          <p class="mainHeading__preTitle">Conexão</p>
+          <h2 class="mainHeading__title">Contato</h2>
+          <form>
+            <input
+              name="name"
+              type="text"
+              class="feedback-input"
+              placeholder="Nome"
+            />
+            <input
+              name="email"
+              type="text"
+              class="feedback-input"
+              placeholder="Email"
+            />
+            <textarea
+              name="text"
+              class="feedback-input"
+              placeholder="Descrição"
+            ></textarea>
+            <input type="submit" value="SUBMIT" />
+          </form>
+        </article>
+        <figure class="mainHeading__image">
+          <img src="assets/images/imagem-6.png" alt="Contato" />
+        </figure>
+      </div>
+    </header>
+    <script src="scripts/main.js"></script>
+  </body>
 </html>
