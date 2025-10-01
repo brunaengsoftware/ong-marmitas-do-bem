@@ -15,10 +15,13 @@ links.forEach(link => {
     if (targetSection) {
       targetSection.classList.add("active");
     }
+
+    navLinks.classList.remove("active");
   });
 });
 
 menuIcon.addEventListener("click", () => {
   navLinks.classList.toggle("active");
 });
+
 
