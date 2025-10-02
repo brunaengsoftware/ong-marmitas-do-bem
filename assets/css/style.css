@@ -354,3 +354,14 @@ textarea {
       margin-top: 16px;
    }
 }
+
+.fa-instagram {
+   margin-top: 20px;
+  font-size: 10px;
+  color: #000; 
+  transition: 0.3s;
+}
+
+.fa-instagram:hover {
+  color: #fea500; /* muda a cor quando passa o mouse */
+}
