@@ -101,18 +101,15 @@
             transforma vidas. Venha cozinhar, distribuir ou apoiar de onde
             estiver. <br />
           </p>
-          <button
-            href="#"
-            onclick="alert('Use a chave Pix: marmitasdobemspoficial@gmail.com');"
-            class="cta"
-          >
-            Doe via Pix 💚
-          </button>
-          <p>
-            <a href="https://www.instagram.com/marmitasdobem_sp/" target="_blank">
-              <p class="fab fa-instagram">  marmitasdobem_sp</p>
-            </a>
-          </p>
+          <button id="btnPix" class="cta">Doe via Pix 💚</button>
+          <div id="pixModal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <h2>Doe via Pix 💸</h2>
+              <p>Use a chave Pix abaixo:</p>
+              <p><strong>ongsolidaria@gmail.com</strong></p>
+            </div>
+          </div>
         </article>
         <figure class="mainHeading__image">
           <img src="assets/images/imagem-4.png" alt="Junte-se a nós" />
@@ -120,7 +117,7 @@
       </div>
       <!-- Contato -->
       <div id="contato" class="mainHeading__content section">
-        <article class="mainHeading__text">
+        <article class="mainHeading__text" id="form_text">
           <p class="mainHeading__preTitle">Conexão</p>
           <h2 class="mainHeading__title">Contato</h2>
           <form>
@@ -141,16 +138,21 @@
               class="feedback-input"
               placeholder="Descrição"
             ></textarea>
-            <input type="submit" value="SUBMIT" />
+            <input type="submit" value="ENVIAR" />
           </form>
         </article>
-        
-        <figure class="mainHeading__image">
+
+        <figure id="imagem_contato" class="mainHeading__image">
           <img src="assets/images/imagem-6.png" alt="Contato" />
         </figure>
-         
       </div>
     </header>
+    <footer class="footer">
+      <p>Feito com ❤️ por Bruna e Jaqueline</p>
+      <a href="https://www.instagram.com/marmitasdobem_sp/" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </footer>
     <script src="scripts/main.js"></script>
   </body>
 </html>
