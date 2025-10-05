@@ -44,7 +44,7 @@ body {
 
 @media screen and (max-width: 799px) {
   .mainNav__links {
-   color: #fea500;
+    color: #fea500;
     display: none;
     flex-direction: column;
     background: #000;
@@ -162,7 +162,7 @@ body {
   backdrop-filter: blur(8px);
   animation: text 0.8s 0.6s ease backwards;
   position: relative;
-   box-shadow: 2px 2px 4px #00000056;
+  box-shadow: 2px 2px 4px #00000056;
 }
 
 .mainHeading__text:before {
@@ -327,13 +327,22 @@ body {
 }
 
 .modal-content {
-  background: #fff;
+  background: #fea500;
   margin: 15% auto;
   padding: 20px;
   border-radius: 10px;
   width: 80%;
   max-width: 400px;
   text-align: center;
+}
+
+@media screen and (max-width: 799px) {
+  .modal-content {
+    width: 100%;
+  }
+  .modal-content p {
+    font-size: 12px;
+  }
 }
 
 .close {
@@ -477,6 +486,6 @@ textarea {
   }
 
   #form_text {
-   margin-bottom: 40px;
+    margin-bottom: 40px;
   }
 }
