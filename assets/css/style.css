@@ -345,6 +345,12 @@ body {
   }
 }
 
+@media screen and (max-width: 390px) {
+  .modal-content p {
+    font-size: 10px;
+  }
+}
+
 .close {
   color: #aaa;
   float: right;
